@@ -1,0 +1,33 @@
+NAME
+
+    Finance::Currency::Convert::ECB - convert currencies with up to date currencies from European Central Bank (ecb.int)
+
+SYNOPSIS
+
+	use Finance::Currency::Convert::ECB;
+	$result = newcurrency(100, "EUR", "USD");
+
+	# available currencies:
+	# USD, JPY, BGN, CZK, DKK, EEK, GBP, HUF, LTL, LVL, PLN, 
+	# RON, SEK, CHF, NOK, HRK, RUB, TRY, AUD, BRL, CAD, CNY, 
+	# HKD, IDR, INR, KRW, MXN, MYR, NZD, PHP, SGD, THB, TAR
+
+DESCRIPTION
+
+Finance::Currency::Convert::ECB uses a XML list to convert currencies.
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+COPYRIGHT
+
+	Finance::Currency::Convert::ECB is Copyright (c) 2010 Stefan Gipper
+	All rights reserved.
+
+	This program is free software; you can redistribute
+	it and/or modify it under the same terms as Perl itself.
+
+SEE ALSO
+
+    perl(1), Finance::Currency::Convert(3pm).
