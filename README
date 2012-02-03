@@ -7,10 +7,16 @@ SYNOPSIS
 	use Finance::Currency::Convert::ECB;
 	$result = newcurrency(100, "EUR", "USD");
 
+	# Difference
+	$result = newcurrency2(100, "EUR", "USD", "GBP");
+
 	# available currencies:
 	# USD, JPY, BGN, CZK, DKK, EEK, GBP, HUF, LTL, LVL, PLN, 
 	# RON, SEK, CHF, NOK, HRK, RUB, TRY, AUD, BRL, CAD, CNY, 
 	# HKD, IDR, INR, KRW, MXN, MYR, NZD, PHP, SGD, THB, TAR
+	#
+	# or use:
+	# print currencylist();
 
 DESCRIPTION
 
@@ -22,7 +28,7 @@ AUTHOR
 
 COPYRIGHT
 
-	Finance::Currency::Convert::ECB is Copyright (c) 2010 Stefan Gipper
+	Finance::Currency::Convert::ECB is Copyright (c) 2011 Stefan Gipper
 	All rights reserved.
 
 	This program is free software; you can redistribute
