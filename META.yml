@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #
 name:         Finance-Currency-Convert-ECB
-version:      0.1
+version:      0.3
 version_from: ECB.pm
 installdirs:  site
 requires:

@@ -24,12 +24,9 @@ Finance::Currency::Convert::ECB uses a XML list to convert currencies.
 
 AUTHOR
 
-    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+    -
 
 COPYRIGHT
-
-	Finance::Currency::Convert::ECB is Copyright (c) 2011 Stefan Gipper
-	All rights reserved.
 
 	This program is free software; you can redistribute
 	it and/or modify it under the same terms as Perl itself.

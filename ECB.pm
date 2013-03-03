@@ -4,7 +4,7 @@ use warnings;
 use Exporter;
 our @ISA = qw/Exporter/;
 our @EXPORT = qw/newcurrency newcurrency2 currencylist/;
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 use XML::Simple;
 use LWP::Simple;
@@ -83,12 +83,9 @@ Finance::Currency::Convert::ECB uses a XML list to convert currencies.
 
 =head1 AUTHOR
 
-    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+    -
 
 =head1 COPYRIGHT
-
-Finance::Currency::Convert::ECB is Copyright (c) 2011 Stefan Gipper
-All rights reserved.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
